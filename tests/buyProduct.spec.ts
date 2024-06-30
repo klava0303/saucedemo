@@ -87,5 +87,3 @@ async function fillCheckoutInfoPage(page) {
     await pm.onCheckoutInfoPage().goTo();
     await pm.onCheckoutInfoPage().checkoutInfoPage(); 
 }
-
-
