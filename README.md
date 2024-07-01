@@ -13,11 +13,13 @@ npx playwright test
 ```
 
 By default Playwright will run all tests in Chrome, Firefox and Webkit in headless mode. 
-To specify a browser, tag with 
+To specify a browser, tag with: 
 ```
---project=chromium (alternatively: firefox, webkit)
+--project=chromium 
 ```
-To run tests in headed mode, tag with 
+(alternatively: firefox, webkit)
+
+To run tests in headed mode, tag with: 
 ```
 --headed 
 ```
