@@ -26,7 +26,7 @@ To run tests in headed mode, tag with:
 
 ## Run a specific test file
 ```
-npx playwright test login.spec.ts --project=chromium -–headed
+npx playwright test login.spec.ts --project=chromium --headed
 ```
 
 ## Reporting 
