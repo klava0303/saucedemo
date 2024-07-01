@@ -1,6 +1,5 @@
 import { test, expect } from '@playwright/test';
 import { PageManager } from '../pages/pageManager';
-import { LoginPage } from '../pages/loginPage';
 import { loginFunc } from './utils';
 
 test.beforeEach(async ({ page }) => {

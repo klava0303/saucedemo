@@ -1,9 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { PageManager } from '../pages/pageManager';
-import { InventoryPage } from '../pages/inventoryPage';
-import { CartPage } from '../pages/cartPage'; 
 import { loginFunc } from './utils';
-import exp from 'constants';
 
 test.beforeEach(async ({ page }) => {
     await loginFunc(page);
